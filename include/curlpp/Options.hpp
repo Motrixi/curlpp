@@ -310,6 +310,7 @@ namespace options
 	*/
 
 	typedef curlpp::OptionTrait<long, CURLOPT_TIMEOUT> Timeout;
+	typedef curlpp::OptionTrait<long, CURLOPT_TIMEOUT_MS> TimeoutMs;
 	typedef curlpp::OptionTrait<long, CURLOPT_LOW_SPEED_LIMIT> LowSpeedLimit;
 	typedef curlpp::OptionTrait<long, CURLOPT_LOW_SPEED_TIME> LowSpeedTime;
 	typedef curlpp::OptionTrait<long, CURLOPT_MAXCONNECTS> MaxConnects;
@@ -317,6 +318,7 @@ namespace options
 	typedef curlpp::OptionTrait<bool, CURLOPT_FRESH_CONNECT> FreshConnect;
 	typedef curlpp::OptionTrait<bool, CURLOPT_FORBID_REUSE> ForbidReuse;
 	typedef curlpp::OptionTrait<long, CURLOPT_CONNECTTIMEOUT> ConnectTimeout;
+	typedef curlpp::OptionTrait<long, CURLOPT_CONNECTTIMEOUT_MS> ConnectTimeoutMs;
 	typedef curlpp::OptionTrait<long, CURLOPT_IPRESOLVE> IpResolve;
 
 
